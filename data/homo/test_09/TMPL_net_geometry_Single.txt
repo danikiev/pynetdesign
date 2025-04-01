@@ -1,0 +1,2 @@
+Name Latitude(WGS84)/Northing(m) Longitude(WGS84)/Easting(m) Elevation(m) NoiseLevel(m/s)
+ST1	0	0	0	5.00E-09

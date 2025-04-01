@@ -1,0 +1,39 @@
+[build-system]
+requires = [
+    "setuptools >= 65",
+    "setuptools_scm[toml]",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pynetdesign"
+description = "Python framework for microseismic monitoring network design"
+readme = "README.md"
+authors = [    
+    {name = "Denis Anikiev", email = "danikiev@gmail.com"},
+]
+keywords = ["geophysics", "microseismic"]
+classifiers = [
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "cmcrameri",
+]
+dynamic = ["version"]
+
+[tool.setuptools.packages.find]
+exclude = ["pytests", "tests"]
+
+[tool.setuptools_scm]
+version_file = "pynetdesign/version.py"

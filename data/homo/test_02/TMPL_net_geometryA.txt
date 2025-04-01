@@ -1,0 +1,5 @@
+Name Latitude(WGS84)/Northing(m) Longitude(WGS84)/Easting(m) Elevation(m) NoiseLevel(m/s)
+ST1	0	0	0	1.00E-07
+ST2	-1470.5	2547	0	1.00E-07
+ST3	-1470.5	-2547	0	1.00E-07
+ST4	2941.0	0	0	1.00E-07
