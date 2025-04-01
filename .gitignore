@@ -1,7 +1,39 @@
+# OS generated files
+.*.swp
+.DS_Store
+.DS_Store?
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/*
+static/*
+
+# Test
+test/
+pytest-results.xml
+
+# Documentation #
+docs/build
+docs/source/api/generated
+docs/source/gallery
+docs/source/examples
+docs/source/tutorials
+*execution_times.rst
+
+# Build
+*.zip
+pynetdesign/version.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Cache
+.cache
+*-checkpoint.ipynb
+.virtual_documents
+.codegpt
 
 # C extensions
 *.so
