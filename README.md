@@ -1,6 +1,6 @@
 # PyNetDesign
 
-[![DOI](https://zenodo.org/badge/943212447.svg)](https://zenodo.org/badge/latestdoi/943212447)
+[![DOI](https://zenodo.org/badge/958300487.svg)](https://zenodo.org/badge/latestdoi/958300487)
 
 PyNetDesign is an open-source Python framework for testing and designing microseismic monitoring networks for homogeneous velocity models.
 
